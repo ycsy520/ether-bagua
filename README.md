@@ -62,43 +62,5 @@
 
 此模式下圆环将严格跟随手指坐标，适合进行大幅度、高精度的方位调整。
 
-🚀 本地运行
-
-由于项目使用了 ES Modules 导入方式以及摄像头权限，直接双击打开 .html 文件可能会遇到 CORS 跨域错误。必须使用本地服务器运行。
-
-方法 A: VS Code (推荐)
-
-安装 Live Server 扩展。
-
-右键点击 ether_bagua.html，选择 "Open with Live Server"。
-
-方法 B: Python
-
-如果您安装了 Python，可以在项目目录下运行终端命令：
-
-# Python 3.x
-python -m http.server 8000
-
-
-然后访问 http://localhost:8000/ether_bagua.html
-
-方法 C: Node.js
-
-npx serve .
-
-
-📜 卦象考据
-
-本项目采用先天八卦 (Pre-Heaven Bagua) 排列，相传为伏羲所定，体现宇宙生成的自然逻辑与阴阳平衡：
-
-乾 (☰)：居南（上），纯阳，主天。
-
-坤 (☷)：居北（下），纯阴，主地。
-
-离 (☲)：居东（左），主火。
-
-坎 (☵)：居西（右），主水。
-
-其余四卦（震、巽、艮、兑）依阴阳消长次序排列，严格遵循先天方位。
 
 Created by the Digital Artificer.
